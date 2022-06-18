@@ -2,7 +2,8 @@ package problems;
 
 import java.util.Locale;
 import java.util.Scanner;
-
+// link da questao:
+// https://www.beecrowd.com.br/judge/pt/problems/view/1073
 public class QuadradodePares {
 
 	public static void main(String[] args) {
