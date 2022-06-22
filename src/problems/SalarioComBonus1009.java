@@ -28,6 +28,7 @@ public class SalarioComBonus1009 {
 	public static void total(double salarioFixo , double comissaoPorVendas){
 		DecimalFormat df = new DecimalFormat("0.00");  
 		System.out.println("TOTAL = R$ " + df.format(salarioFixo + comissaoPorVendas) );
+		
 	}
 	
 

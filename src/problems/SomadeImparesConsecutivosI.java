@@ -31,6 +31,7 @@ public class SomadeImparesConsecutivosI {
 			}	
 		}
 		System.out.println(somaImpares);
+		
 		sc.close();
 	}
 	
