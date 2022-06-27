@@ -13,7 +13,7 @@ public class TempodeJogo {
 		
 		int horaincial = sc.nextInt();
 		int horafinal = sc.nextInt();
-		
+		sc.close();
 		int duracao = 0 ;
 		
 		if(horafinal<= horaincial){

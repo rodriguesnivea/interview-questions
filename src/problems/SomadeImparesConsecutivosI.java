@@ -8,9 +8,9 @@ public class SomadeImparesConsecutivosI {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US); 
 		Scanner sc = new Scanner(System.in);
-		
 		int x = sc.nextInt();
 		int y = sc.nextInt();
+		sc.close();
 		
 		int maior = 0;
 		int menor = 0;
@@ -32,7 +32,6 @@ public class SomadeImparesConsecutivosI {
 		}
 		System.out.println(somaImpares);
 		
-		sc.close();
 	}
 	
 			

@@ -14,11 +14,12 @@ public class SalarioComBonus1009 {
 		String nome = sc.nextLine();
 		double salarioFixo = sc.nextDouble();
 		double totalDeVendasNoMes$ = sc.nextDouble();
+		sc.close();
 		
 		double comissao = comissaoPorVendas(totalDeVendasNoMes$);
 		total(salarioFixo, comissao);
 		
-		sc.close();
+		
 	}
 	
 	public static double comissaoPorVendas(double totalDeVendasNoMes$){

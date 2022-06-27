@@ -8,9 +8,7 @@ public class ParesImparesPositivoseNegativosUsandofor {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US); 
 		Scanner sc = new Scanner(System.in);
-		
-		int[] vetor = new int[5] ;
-		
+	
 		int quantidadePar = 0;
 		int quantidadeImpar = 0;
 		int quantidadePositivo = 0;
@@ -19,6 +17,7 @@ public class ParesImparesPositivoseNegativosUsandofor {
 		for(int i = 0; i<5 ; i++){
 			
 			int valor = sc.nextInt();
+			sc.close();
 			
 			if(valor%2==0){
 				quantidadePar ++;
@@ -40,7 +39,7 @@ public class ParesImparesPositivoseNegativosUsandofor {
 		System.out.println(quantidadePositivo+" valor(es) positivo(s)");
 		System.out.println(quantidadeNegativo+" valor(es) negativo(s)");
 		
-		sc.close();
+		
 
 	}
 

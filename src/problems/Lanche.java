@@ -18,6 +18,7 @@ public class Lanche {
 		double preco = 0;
 		
 		switch(codigo){
+	
 			case 1:
 				preco = 4.00;
 				break;
