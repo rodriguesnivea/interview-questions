@@ -63,6 +63,8 @@ public class Grenais {
 		}else if(vitInter==vitGremio){
 			System.out.println("Nao houve vencedor");
 		}
+		
+		sc.close();
 	}
 
 }

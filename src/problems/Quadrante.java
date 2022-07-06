@@ -37,7 +37,7 @@ public class Quadrante {
 			}else if(x<0 && y>0){
 				System.out.println("segundo");
 			}
-		
+			sc.close();
 		}
 
 	}
